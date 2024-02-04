@@ -1,0 +1,86 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #ff1245;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #ff1245;
+}
+
+.first {
+    background-image: url('https://education-ga.ketcloud.ket.org/wp-content/uploads/id123-1024x538.jpg');
+}
+
+.second {
+    background-image: url('https://edu.google.com/images/social_image.jpg');
+}
+
+.third {
+    background-image: url(./img/classroom-4919800_1280.jpg);
+}
+
+.first,
+.second,
+.third {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    transition: transform 1s ;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-conheca .nav-link.active:hover {
+    color: #fff;
+}
+
+#img1 {
+    width: 100%;
+}
+
+.navbar-toggler {
+    background-color: #f0f6fc;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.text-colored {
+    color: #ff1245;
+}
+
+.nav-conheca .nav-link.active,
+#contato button {
+    background-color: #ff1245;
+    color: #fff;
+}
+
+.nav-conheca .nav-link:hover {
+    color: #ff1245;
+}
+
+.social-links li {
+    margin-left: 10px;
+    align-items: center;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #ff7694;
+    padding-top: 10px;
+}
